@@ -16,4 +16,9 @@ public class NomScore {
     public double getScore() {
         return score;
     }
+
+    @Override
+    public String toString() {
+        return "Nom: " + nom.getValeur() + ", Score: " + score;
+    }
 }
