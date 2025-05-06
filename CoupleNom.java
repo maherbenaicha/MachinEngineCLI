@@ -1,5 +1,5 @@
-package MatchEngineCLI;
-import java.util.*;
+package miniprojet;
+
 public class CoupleNom {
     private Nom nom1;
     private Nom nom2;

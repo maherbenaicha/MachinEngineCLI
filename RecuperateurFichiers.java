@@ -1,5 +1,8 @@
-package MatchEngineCLI;
-import java.util.*;
+package miniprojet;
+
+import java.util.List;
+import java.util.ArrayList;
+
 public class RecuperateurFichiers {
     public List<Nom> chargerFichier(String chemin) {
         // À implémenter : lire le fichier CSV et retourner une liste de noms

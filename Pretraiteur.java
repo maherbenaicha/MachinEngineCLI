@@ -1,5 +1,5 @@
-package MatchEngineCLI;
-import java.util.*;
+package miniprojet;
+
 public interface Pretraiteur {
     String traiter(String nom);
 }

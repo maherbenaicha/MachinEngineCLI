@@ -1,5 +1,9 @@
-package MatchEngineCLI;
-import java.util.*;
+package miniprojet;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+
 public class MoteurdeMatching {
     private Pretraiteur pretraiteur;
     private GenerateurCandidats generateur;

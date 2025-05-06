@@ -1,5 +1,5 @@
-package MatchEngineCLI;
-import java.util.*;
+package miniprojet;
+
 public class Nom {
     private String valeur;
 

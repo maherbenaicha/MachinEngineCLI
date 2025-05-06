@@ -1,6 +1,7 @@
-package MatchEngineCLI;
-import java.util.*;
+package miniprojet;
+
 public class ComparateurLevenshtein implements Comparateur {
+    
     public double comparer(String nom1, String nom2) {
         int distance = levenshtein(nom1, nom2);
         return 1.0 / (1 + distance); // plus proche de 1 si proche
