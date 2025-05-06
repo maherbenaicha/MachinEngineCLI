@@ -6,7 +6,6 @@ public class Main {
         List<Nom> listeNoms = Arrays.asList(
                 new Nom("Maher"),
                 new Nom("Mahir"),
-                new Nom("Marie"),
                 new Nom("Mehdi"),
                 new Nom("Marcel")
         );
